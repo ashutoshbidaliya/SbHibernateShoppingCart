@@ -1,4 +1,4 @@
-package org.o7plannng.sbshoppingcart.config;
+package org.o7planning.sbshoppingcart.config;
 
 import org.o7planning.sbshoppingcart.service.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;

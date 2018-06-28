@@ -1,4 +1,4 @@
-package org.o7plannng.sbshoppingcart;
+package org.o7planning.sbshoppingcart;
 
 import java.util.Properties;
 

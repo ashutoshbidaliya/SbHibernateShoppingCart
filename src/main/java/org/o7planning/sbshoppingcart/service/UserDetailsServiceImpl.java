@@ -1,4 +1,4 @@
-package org.o7plannng.sbshoppingcart.service;
+package org.o7planning.sbshoppingcart.service;
 
 import java.util.ArrayList;
 import java.util.List;

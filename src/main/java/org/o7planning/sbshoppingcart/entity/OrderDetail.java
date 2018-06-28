@@ -1,4 +1,4 @@
-package org.o7plannng.sbshoppingcart.entity;
+package org.o7planning.sbshoppingcart.entity;
 
 import java.io.Serializable;
 
