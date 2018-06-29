@@ -62,16 +62,7 @@
 			<artifactId>thymeleaf-extras-springsecurity4</artifactId>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-test</artifactId>
-			<scope>test</scope>
-		</dependency>
+
 
 		<!-- Commons Email validator,... -->
 		<!-- http://mvnrepository.com/artifact/commons-validator/commons-validator%20 -->
@@ -96,11 +87,20 @@
 		</dependency>
 		
 		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
-		<dependency>
-    		<groupId>org.hibernate</groupId>
+<!-- 		<dependency>
+   			<groupId>org.hibernate</groupId>
     		<artifactId>hibernate-core</artifactId>
-    		<version>5.3.0.Final</version>
+    		<version>5.2.17.Final</version>
+		</dependency> -->
+		
+		<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+		<dependency>
+    		<groupId>javax.xml.bind</groupId>
+    		<artifactId>jaxb-api</artifactId>
+    		<version>2.3.0</version>
 		</dependency>
+		
+
 		
 	</dependencies>
 
@@ -121,8 +121,17 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+    			<version>2.0.3.RELEASE</version>
+			</plugin>
+			
+			<plugin>
+    			<groupId>org.apache.maven.plugins</groupId>
+    			<artifactId>maven-compiler-plugin</artifactId>
+    			<version>3.7.0</version>    				
 			</plugin>
 		</plugins>
+		
+		
 	</build>
 
 
